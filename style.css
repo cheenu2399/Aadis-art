@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+#one-part {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#one-part h1 {
+    font-size: 48px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+#one-part h1:hover {
+    color: #ff6600;
+}
+
+#one-part h3 {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Image Section Styles */
+.img-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Content Section Styles */
+.content-section {
+    padding: 20px 0;
+}
+
+.content-section h2 {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.content-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-section ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-section h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-section h4 a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-section h4 a:hover {
+    color: #ff6600;
+}
